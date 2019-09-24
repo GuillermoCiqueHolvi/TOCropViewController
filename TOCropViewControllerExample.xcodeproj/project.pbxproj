@@ -420,8 +420,8 @@
 		2238CF341FC027550081B957 /* CropViewController */ = {
 			isa = PBXGroup;
 			children = (
+				922BE2EF233A2A8D00FE9C9B /* include */,
 				2238CF351FC029880081B957 /* CropViewController.swift */,
-				2238CF3E1FC029A90081B957 /* CropViewController.h */,
 				2238CF3F1FC029A90081B957 /* Info.plist */,
 			);
 			path = CropViewController;
@@ -453,6 +453,14 @@
 				22DB4D951B234D07008B8466 /* TOCropView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		922BE2EF233A2A8D00FE9C9B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2238CF3E1FC029A90081B957 /* CropViewController.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
