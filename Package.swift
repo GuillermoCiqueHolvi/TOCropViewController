@@ -8,8 +8,12 @@ let package = Package(
         .library(name: "TOCropViewController", targets: ["TOCropViewController"])
     ],
     targets: [
-        .target(name: "CropViewController", path: "Swift/CropViewController"),
+        .target(name: "CropViewController",
+                dependencies: ["TOCropViewController"], 
+                path: "Swift/CropViewController"),
         .target(name: "TOCropViewController", path: "Objective-C/TOCropViewController"),
-        .testTarget(name: "TOCropViewControllerTests", path: "Objective-C/TOCropViewControllerTests")
+        .testTarget(name: "TOCropViewControllerTests",
+                    dependencies: ["TOCropViewController"], 
+                    path: "Objective-C/TOCropViewControllerTests")
     ]
 )
