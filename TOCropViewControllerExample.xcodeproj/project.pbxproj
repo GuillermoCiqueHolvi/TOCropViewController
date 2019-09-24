@@ -257,10 +257,10 @@
 		144B8CCA1D22CAFF0085D774 /* TOCropViewController */ = {
 			isa = PBXGroup;
 			children = (
+				220C8EA521062FFF00A9B25D /* include */,
 				2238CF441FC02AE00081B957 /* TOCropViewController.h */,
 				22DB4D831B234CFA008B8466 /* TOCropViewController.m */,
 				220C8EA92106344D00A9B25D /* Categories */,
-				220C8EA521062FFF00A9B25D /* Constants */,
 				22DB4D881B234D07008B8466 /* Models */,
 				22DB4D8D1B234D07008B8466 /* Views */,
 				220C8EA021062E6D00A9B25D /* Resources */,
@@ -302,12 +302,12 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
-		220C8EA521062FFF00A9B25D /* Constants */ = {
+		220C8EA521062FFF00A9B25D /* include */ = {
 			isa = PBXGroup;
 			children = (
 				220C8E9F21062DD300A9B25D /* TOCropViewConstants.h */,
 			);
-			path = Constants;
+			path = include;
 			sourceTree = "<group>";
 		};
 		220C8EA92106344D00A9B25D /* Categories */ = {
