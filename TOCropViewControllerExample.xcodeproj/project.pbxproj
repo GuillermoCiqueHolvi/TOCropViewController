@@ -258,7 +258,6 @@
 			isa = PBXGroup;
 			children = (
 				220C8EA521062FFF00A9B25D /* include */,
-				2238CF441FC02AE00081B957 /* TOCropViewController.h */,
 				22DB4D831B234CFA008B8466 /* TOCropViewController.m */,
 				220C8EA92106344D00A9B25D /* Categories */,
 				22DB4D881B234D07008B8466 /* Models */,
@@ -305,7 +304,16 @@
 		220C8EA521062FFF00A9B25D /* include */ = {
 			isa = PBXGroup;
 			children = (
+				2238CF441FC02AE00081B957 /* TOCropViewController.h */,
 				220C8E9F21062DD300A9B25D /* TOCropViewConstants.h */,
+				220C8EAB2106344D00A9B25D /* UIImage+CropRotate.h */,
+				22DB4D891B234D07008B8466 /* TOCropViewControllerTransitioning.h */,
+				22DB4D9C1B234D4F008B8466 /* TOActivityCroppedImageProvider.h */,
+				22BF961E1B2CD017009F4785 /* TOCroppedImageAttributes.h */,
+				22DB4D8E1B234D07008B8466 /* TOCropOverlayView.h */,
+				22DB4D901B234D07008B8466 /* TOCropScrollView.h */,
+				22DB4D921B234D07008B8466 /* TOCropToolbar.h */,
+				22DB4D941B234D07008B8466 /* TOCropView.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -313,7 +321,6 @@
 		220C8EA92106344D00A9B25D /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				220C8EAB2106344D00A9B25D /* UIImage+CropRotate.h */,
 				220C8EAA2106344D00A9B25D /* UIImage+CropRotate.m */,
 			);
 			path = Categories;
@@ -430,11 +437,8 @@
 		22DB4D881B234D07008B8466 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				22DB4D891B234D07008B8466 /* TOCropViewControllerTransitioning.h */,
 				22DB4D8A1B234D07008B8466 /* TOCropViewControllerTransitioning.m */,
-				22DB4D9C1B234D4F008B8466 /* TOActivityCroppedImageProvider.h */,
 				22DB4D9D1B234D4F008B8466 /* TOActivityCroppedImageProvider.m */,
-				22BF961E1B2CD017009F4785 /* TOCroppedImageAttributes.h */,
 				22BF961F1B2CD017009F4785 /* TOCroppedImageAttributes.m */,
 			);
 			path = Models;
@@ -443,13 +447,9 @@
 		22DB4D8D1B234D07008B8466 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				22DB4D8E1B234D07008B8466 /* TOCropOverlayView.h */,
 				22DB4D8F1B234D07008B8466 /* TOCropOverlayView.m */,
-				22DB4D901B234D07008B8466 /* TOCropScrollView.h */,
 				22DB4D911B234D07008B8466 /* TOCropScrollView.m */,
-				22DB4D921B234D07008B8466 /* TOCropToolbar.h */,
 				22DB4D931B234D07008B8466 /* TOCropToolbar.m */,
-				22DB4D941B234D07008B8466 /* TOCropView.h */,
 				22DB4D951B234D07008B8466 /* TOCropView.m */,
 			);
 			path = Views;
